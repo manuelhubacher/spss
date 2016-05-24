@@ -1,0 +1,22 @@
+{
+    "VARIABLE LABELS": {
+        "prefix": "VARLA",
+        "body": "VARIABLE LABELS ${1:variable} \"${2:label}\".$0",
+        "description": "VARIABLE LABELS"
+    },
+    "VARIABLE LEVEL":{
+        "prefix": "VARLE",
+        "body": "VARIABLE LEVEL ${1:variable} (${2:scale of measure}).$0",
+        "description": "VARIABLE LEVEL"
+    },
+    "VALUE LABELS":{
+        "prefix": "VALLA",
+        "body": ["VALUE LABELS ${1:variable}", "${2:value}"],
+        "description": "VALUE LABELS"
+    },
+    "RECODE":{
+        "prefix": "RECODE",
+        "body": "RECODE ${1:variable} (${2:values}) ${3:INTO} ${4:new variable}.$0",
+        "description": "RECODE"
+    }
+}

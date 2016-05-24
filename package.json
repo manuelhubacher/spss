@@ -1,0 +1,33 @@
+{
+    "name": "sps",
+    "displayName": "SPSS-Syntax",
+    "description": "Very basic syntax highlighting for SPSS syntax. Based on: https://github.com/bartkamphorst/spss.tmbundle",
+    "version": "0.0.1",
+    "publisher": "maenu",
+    "engines": {
+        "vscode": "1.0.0"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "spss",
+            "aliases": ["SPSS", "spss"],
+            "extensions": [".sps"],
+            "configuration": "./spss.configuration.json"
+        }],
+                "snippets": [
+            {
+                "language": "spss",
+                "path": "./snippets/snippets.json"
+            }
+        ],
+        "grammars": [{
+            "language": "spss",
+            "scopeName": "source.spss",
+            "path": "./syntaxes/spss.tmLanguage"
+        }]
+    }
+}
