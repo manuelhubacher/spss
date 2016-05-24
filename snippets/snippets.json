@@ -23,5 +23,15 @@
     "MISSING VALUES":{
         "prefix": "MISSING VALUES",
         "body": "MISSING VALUES ${1:variable} (${2:missing values}).$0"
+    },
+    "EXECUTE":{
+        "prefix": "EXE",
+        "body": "EXECUTE."
+    },
+    "SAVE OUTFILE":{
+        "prefix": "SAVE OUTFILE",
+        "body": ["SAVE OUTFILE=\"${1:path to file}\"",
+                 "    /COMPRESSED."]
     }
+    
 }
