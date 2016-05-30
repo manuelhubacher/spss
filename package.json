@@ -1,11 +1,11 @@
 {
     "name": "sps",
     "displayName": "SPSS-Syntax",
-    "description": "Very basic syntax highlighting for SPSS syntax. Based on: https://github.com/bartkamphorst/spss.tmbundle",
+    "description": "Very basic syntax highlighting for SPSS syntax and some snippets",
     "version": "0.0.1",
     "publisher": "maenu",
     "engines": {
-        "vscode": "1.0.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Languages",
