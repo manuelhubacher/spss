@@ -1,12 +1,12 @@
 {
     "VARIABLE LABELS": {
         "prefix": "VARIABLE LABELS",
-        "body": "VARIABLE LABELS ${1:variable} \"${2:label}\".$0",
+        "body": "VARIABLE LABELS",
         "description": "VARIABLE LABELS"
     },
     "VARIABLE LEVEL":{
         "prefix": "VARIABLE LEVEL",
-        "body": "VARIABLE LEVEL ${1:variable} (${2:scale_of_measure}).$0",
+        "body": "VARIABLE LEVEL ${1:variable} (${2:scale_of_measure}).",
         "description": "VARIABLE LEVEL"
     },
     "VALUE LABELS":{
@@ -22,7 +22,7 @@
     },
     "MISSING VALUES":{
         "prefix": "MISSING VALUES",
-        "body": "MISSING VALUES ${1:variable} (${2:missing values}).$0"
+        "body": "MISSING VALUES ${1:variable} (${2:missing_values}).$0"
     },
     "EXECUTE":{
         "prefix": "EXE",
